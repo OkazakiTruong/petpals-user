@@ -1,0 +1,17 @@
+@import "../../style/_variable";
+
+div:has(.wrap):nth-child(1) {
+  background-color: $BROWN_500;
+  height: 62px;
+  display: flex;
+  align-items: center;
+}
+.wrap {
+  width: 1372px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.social-connect {
+  display: flex;
+}

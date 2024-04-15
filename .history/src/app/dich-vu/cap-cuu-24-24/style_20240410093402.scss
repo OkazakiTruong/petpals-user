@@ -1,0 +1,32 @@
+@import "../../../style/variable";
+@import "../../../style/base";
+
+.introduce-service {
+  width: 1372px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  .service-img {
+    img {
+      width: 560px;
+      height: 315px;
+    }
+  }
+  .information-table {
+    color: black;
+    width: 560px;
+  }
+  .row {
+    display: flex;
+    color: black;
+  }
+  .heading {
+    width: 142px;
+    height: 41px;
+    background-color: $BROWN_500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

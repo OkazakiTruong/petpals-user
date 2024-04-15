@@ -1,0 +1,16 @@
+@import "../../style/variable";
+footer {
+  display: block;
+  width: 100vw;
+  height: 424px;
+  background-color: $BROWN_500;
+  padding: 20px 0;
+}
+.row {
+  width: 1372px;
+  margin: 0 auto;
+  display: grid;
+}
+.logo {
+  width: 214px;
+}

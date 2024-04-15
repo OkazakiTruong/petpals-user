@@ -1,0 +1,44 @@
+@import "../../../style/variable";
+@import "../../../style/base";
+
+.introduce-service {
+  width: 1372px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  .service-img {
+    img {
+      width: 560px;
+      height: 315px;
+    }
+  }
+  .information-table {
+    color: black;
+    width: 560px;
+  }
+  .table {
+    display: flex;
+    flex-direction: column;
+  }
+  .row {
+    display: flex;
+    color: black;
+  }
+  .heading {
+    width: 142px;
+    height: 41px;
+    background-color: $BROWN_500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  .content {
+    width: 420px;
+    height: 41px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+  }
+}

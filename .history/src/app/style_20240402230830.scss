@@ -1,0 +1,13 @@
+.banner {
+  width: 100vw;
+  height: 774px;
+  background-image: url("/img/banner.png");
+  background-size: cover;
+  position: relative;
+}
+.banner-grid {
+  width: 1372px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}

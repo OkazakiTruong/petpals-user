@@ -1,0 +1,29 @@
+@import "../../style/variable";
+.booking-item {
+  width: 444px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.booking-img {
+  height: 335px;
+  position: relative;
+  .booking-name {
+    position: absolute;
+    display: flex;
+    width: 358px;
+    height: 62px;
+    background-color: $BROWN_500;
+    display: flex;
+    align-items: center;
+    border-radius: 0 99px 99px 0;
+    bottom: 0;
+    transform: translateY(50%);
+    padding-left: 30px;
+    color: white;
+  }
+}
+.booking-content {
+  height: 215px;
+  padding: 46px 20px 20px 20px;
+  box-shadow: 0 0 10 5 rgba(0, 0, 0, 0.297);
+}

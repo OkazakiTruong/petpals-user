@@ -1,0 +1,7 @@
+.doctor-item {
+  width: 444px;
+  height: 523px;
+  & + img {
+    height: 366px;
+  }
+}

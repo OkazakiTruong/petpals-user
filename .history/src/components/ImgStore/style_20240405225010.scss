@@ -1,0 +1,21 @@
+.img-store {
+  width: 1372px;
+  margin: 0 auto;
+}
+.img-store-item {
+  width: 328px;
+  height: 328px;
+  position: relative;
+  img {
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  .hidden {
+    // position: absolute;
+    // inset: 0;
+  }
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.25);
+  }
+}

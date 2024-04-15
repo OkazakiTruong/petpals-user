@@ -1,0 +1,106 @@
+@import "../../style/_variable";
+
+div:has(.wrap):nth-child(1) {
+  background-color: $BROWN_500;
+  height: 62px;
+  display: flex;
+  align-items: center;
+}
+.wrap {
+  width: 1372px;
+  margin: 0 auto;
+}
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.social-connect {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.social-connect > p {
+  padding: 0px 7px;
+  border-right: 1px solid white;
+}
+div:has(.wrap):nth-child(2) {
+  padding-top: 18px;
+}
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.petpals-logo {
+  display: block;
+  width: 211px;
+  height: 111px;
+}
+.header-main-right {
+  display: flex;
+  width: 1024px;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-input {
+  display: flex;
+  position: relative;
+
+  input {
+    width: 676px;
+    height: 60px;
+    padding: 0px 60px 0px 20px;
+    border: 1px solid $BROWN_500;
+    border-radius: 99px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon-item {
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    cursor: pointer;
+  }
+}
+.btn-group {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 96px;
+    height: 60px;
+    border: 1px solid $BROWN_500;
+    border-radius: 10px;
+    color: $BROWN_500;
+  }
+  .btn:nth-child(1):hover {
+    background-color: $BROWN_500;
+    color: white;
+  }
+  .btn:nth-child(2) {
+    color: white;
+    background-color: $BROWN_500;
+    &:hover {
+      background-color: $BROWN_300;
+    }
+  }
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 676px;
+  margin: 0 auto;
+  color: $BROWN_500;
+  &-item {
+    display: flex;
+    align-items: center;
+  }
+}

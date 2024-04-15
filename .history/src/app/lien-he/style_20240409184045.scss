@@ -1,0 +1,13 @@
+@import "../../style/variable";
+@import "../../style/base";
+
+.contact-wrapper {
+  display: flex;
+  justify-content: center;
+  .contact-item {
+    display: flex;
+    flex-direction: column;
+    width: 444px;
+    height: 339px;
+  }
+}

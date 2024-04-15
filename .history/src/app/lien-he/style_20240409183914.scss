@@ -1,0 +1,10 @@
+@import "../../style/variable";
+@import "../../style/base";
+
+.contact-wrapper {
+  display: flex;
+  justify-content: center;
+  .contact-item {
+    display: flex;
+  }
+}

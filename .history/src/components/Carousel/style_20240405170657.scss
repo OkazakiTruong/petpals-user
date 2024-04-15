@@ -1,0 +1,23 @@
+@import "../../style/variable";
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  display: flex;
+  gap: 20px;
+  min-width: 100%;
+  padding-bottom: 10px;
+}
+.dot-list {
+  display: flex;
+  gap: 10px;
+  .dot {
+    width: 4px;
+    height: 4px;
+    border-radius: 99px;
+    background-color: $BROWN_500;
+  }
+}

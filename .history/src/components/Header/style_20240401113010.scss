@@ -1,0 +1,7 @@
+div:has(.wrap):nth-child(1) {
+  background-color: red;
+}
+.wrap {
+  width: 1372px;
+  margin: 0 auto;
+}

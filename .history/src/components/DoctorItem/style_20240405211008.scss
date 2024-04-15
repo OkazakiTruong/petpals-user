@@ -1,0 +1,33 @@
+@import "../../style/variable";
+.doctor-item {
+  width: 444px;
+  height: 523px;
+  .doctor-wrapper {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  & + img {
+    height: 366px;
+  }
+  .doctor-img {
+    position: relative;
+  }
+  .doctor-contact {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+  }
+  .contact-item {
+    width: 60px;
+    height: 60px;
+    background-color: $BROWN_500;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 24px;
+    }
+  }
+}

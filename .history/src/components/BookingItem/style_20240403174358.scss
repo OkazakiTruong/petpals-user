@@ -1,0 +1,19 @@
+@import "../../style/variable";
+.booking-item {
+  width: 444px;
+}
+.booking-img {
+  height: 335px;
+  position: relative;
+  .booking-name {
+    position: absolute;
+    display: flex;
+    width: 358px;
+    height: 62px;
+    background-color: $BROWN_500;
+    display: flex;
+    align-items: center;
+    border-radius: 0 99px 99px 0;
+    bottom: 0;
+  }
+}

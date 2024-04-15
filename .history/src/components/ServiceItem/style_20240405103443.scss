@@ -1,0 +1,25 @@
+@import "../../style/variable";
+.service-item {
+  width: 444px;
+  height: 426px;
+  display: flex;
+  justify-content: flex-end;
+  .service-wrapper {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  img {
+    border-radius: 10px;
+  }
+  .service-img {
+    position: relative;
+    .service-name {
+      position: absolute;
+      background-color: red;
+    }
+  }
+  .service-content {
+    padding: 0px 20px;
+  }
+}

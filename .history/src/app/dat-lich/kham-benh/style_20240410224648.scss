@@ -1,0 +1,14 @@
+@import "../../../style/variable";
+@import "../../../style/base";
+
+.booking-wrapper {
+  width: 908px;
+  margin: 0 auto;
+
+  .ant-steps-item-finish .ant-steps-item-icon {
+    background-color: transparent !important;
+    .anticon-check {
+      color: $BROWN_500;
+    }
+  }
+}

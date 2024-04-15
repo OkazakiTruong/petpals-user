@@ -1,0 +1,26 @@
+@import "../../style/variable";
+.service-item {
+  width: 444px;
+  height: 426px;
+  display: flex;
+  justify-content: flex-end;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  .service-wrapper {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  img {
+    border-radius: 10px;
+  }
+  .service-img {
+    position: relative;
+    .service-name {
+      position: absolute;
+      background-color: $BROWN_500;
+    }
+  }
+  .service-content {
+    padding: 0px 20px;
+  }
+}

@@ -1,0 +1,13 @@
+div:has(.wrap):nth-child(1) {
+  background-color: red;
+  height: 62px;
+  display: flex;
+  align-items: center;
+}
+.wrap {
+  width: 1372px;
+  margin: 0 auto;
+}
+.social-connect {
+  display: flex;
+}

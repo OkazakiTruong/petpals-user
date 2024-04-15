@@ -1,0 +1,35 @@
+@import "../../style/variable";
+.service-item {
+  width: 444px;
+  height: 426px;
+  display: flex;
+  justify-content: flex-end;
+  .service-wrapper {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .service-img {
+    height: 243px;
+    position: relative;
+    img {
+      border-radius: 10px;
+    }
+    .service-name {
+      position: absolute;
+      bottom: 0;
+      background-color: $BROWN_500;
+      color: white;
+      width: 372px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+    }
+  }
+  .service-content {
+    padding: 0px 20px;
+  }
+}

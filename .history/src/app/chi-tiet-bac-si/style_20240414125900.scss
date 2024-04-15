@@ -1,0 +1,16 @@
+@import "../../style/variable";
+@import "../../style/base";
+
+.doctor-information-section {
+  width: 1138px;
+  margin: 0 auto;
+}
+.information-wrapper {
+  .doctor-img {
+    img {
+      width: 372px;
+      height: 372px;
+      border-radius: 10px;
+    }
+  }
+}

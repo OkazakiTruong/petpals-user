@@ -1,0 +1,13 @@
+@import "../../style/variable";
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.ant-pagination-item {
+  border: 1px solid #dfe3e8 !important;
+}
+.ant-pagination-item-active {
+  border: 1px solid;
+}

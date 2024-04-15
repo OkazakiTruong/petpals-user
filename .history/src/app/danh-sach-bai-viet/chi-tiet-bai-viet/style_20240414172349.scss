@@ -1,0 +1,14 @@
+@import "../../../style/variable";
+@import "../../../style/base";
+
+.article-section {
+  width: 1372px;
+  margin: 0 auto;
+  margin-top: 60px;
+  display: flex;
+  gap: 20px;
+}
+.article-section-left {
+  width: 1025px;
+  height: 1px;
+}

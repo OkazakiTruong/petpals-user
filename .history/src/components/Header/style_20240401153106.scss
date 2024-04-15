@@ -1,0 +1,32 @@
+@import "../../style/_variable";
+
+div:has(.wrap):nth-child(1) {
+  background-color: $BROWN_500;
+  height: 62px;
+  display: flex;
+  align-items: center;
+}
+.wrap {
+  width: 1372px;
+  margin: 0 auto;
+}
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.social-connect {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.social-connect > p {
+  padding: 0px 7px;
+  border-right: 1px solid white;
+}
+.petpals-logo {
+  display: block;
+  width: 211px;
+  height: 111px;
+}

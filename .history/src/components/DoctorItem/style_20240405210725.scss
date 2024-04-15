@@ -1,0 +1,17 @@
+@import "../../style/variable" .doctor-item {
+  width: 444px;
+  height: 523px;
+  .doctor-wrapper {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  & + img {
+    height: 366px;
+  }
+  .contact-item {
+    width: 60px;
+    height: 60px;
+    background-color: $BROWN_500;
+  }
+}

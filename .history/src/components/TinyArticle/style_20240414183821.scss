@@ -1,0 +1,11 @@
+@import "../../style/variable";
+@import "../../style/base";
+
+.tiny-article-item {
+  height: 133px;
+  img {
+    width: 133px;
+    height: 133px;
+    object-fit: cover;
+  }
+}

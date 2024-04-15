@@ -1,0 +1,62 @@
+@import "../../style/variable";
+@import "../../style/base";
+
+main {
+  padding-bottom: 60px;
+  background-color: $RED_50;
+}
+
+.login-wrapper {
+  width: 1372px;
+  height: 724px;
+  margin: 60px auto 0 auto;
+  display: flex;
+  gap: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.25);
+  .img {
+    width: 676px;
+    background-image: url("/img/bg-login.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    position: relative;
+    .overlay {
+      position: absolute;
+      inset: 0;
+      border-radius: 10px;
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+    .content {
+      position: relative;
+      z-index: 4;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 350px;
+        height: 229px;
+      }
+      h3 {
+        font-size: 40px;
+        color: white;
+      }
+    }
+  }
+  .form-wrapper {
+    width: 676px;
+    display: flex;
+    justify-content: center;
+    .form {
+      margin-top: 30px;
+      width: 444px;
+    }
+    input {
+      height: 55px;
+      border-color: black;
+    }
+  }
+}

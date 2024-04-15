@@ -1,0 +1,14 @@
+@import "../../style/variable";
+@import "../../style/base";
+
+.login-wrapper {
+  width: 1372px;
+  height: 724px;
+  margin: 60px auto 0 auto;
+  display: flex;
+  gap: 20px;
+  .img {
+    width: 676px;
+    background-image: url("/img/bg-login.jpg");
+  }
+}

@@ -1,0 +1,105 @@
+@import "../../style/variable";
+@import "../../style/base";
+
+main {
+  padding-bottom: 60px;
+  background-color: $RED_50;
+}
+
+.login-wrapper {
+  width: 1372px;
+  height: 724px;
+  margin: 60px auto 0 auto;
+  display: flex;
+  gap: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.25);
+  .img {
+    width: 676px;
+    background-image: url("/img/bg-login.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    position: relative;
+    .overlay {
+      position: absolute;
+      inset: 0;
+      border-radius: 10px;
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+    .content {
+      position: relative;
+      z-index: 4;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 350px;
+        height: 229px;
+      }
+      h3 {
+        font-size: 40px;
+        color: white;
+      }
+    }
+  }
+  .form-wrapper {
+    width: 676px;
+    display: flex;
+    justify-content: center;
+    .form {
+      margin-top: 30px;
+      width: 444px;
+    }
+    h1 {
+      text-transform: uppercase;
+      font-size: 32px;
+      color: $BROWN_500;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    input {
+      height: 55px;
+      border: 1px solid black;
+      border-radius: 10px;
+      font-size: 16px;
+      padding: 0px 20px;
+    }
+    .input-group {
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+      margin-bottom: 10px;
+    }
+    .option-group {
+      display: flex;
+      justify-content: space-between;
+      .ant-checkbox-inner {
+        width: 24px;
+        height: 24px;
+        font-size: 24px;
+        &::after {
+          opacity: 1;
+          background-color: crimson;
+          transform: rotate(45deg) scale(1.4) translate(-50%, -50%);
+          transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;
+        }
+      }
+    }
+    .custom-eye {
+      position: relative;
+      height: fit-content;
+      img {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 10px;
+      }
+    }
+  }
+}

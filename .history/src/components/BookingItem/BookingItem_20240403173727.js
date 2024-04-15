@@ -1,0 +1,18 @@
+import "./style.scss";
+export const BookingItem = () => {
+  return (
+    <div class="booking-item">
+      <div class="booking-img">
+        <img src="/img/booking-section/kham.png" alt="" />
+        <h3 className="booking-name">Đặt Lịch Khám</h3>
+      </div>
+      <div>
+        <div className="booking-content">
+          Thú cưng của bạn khi tới bệnh viện sẽ nhận được quy trình chăm sóc
+          tiêu chuẩn quốc tế với các bước kiểm tra, xét nghiệm, chẩn đoán điều
+          trị rõ ràng.
+        </div>
+      </div>
+    </div>
+  );
+};

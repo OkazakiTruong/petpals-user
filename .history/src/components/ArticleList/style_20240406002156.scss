@@ -1,0 +1,15 @@
+.article-list {
+  width: 1372px;
+  margin: 0 auto;
+}
+.article-item {
+  width: 328px;
+  height: 424px;
+  .article-img {
+    img {
+      width: 326px;
+      height: 211px;
+      object-fit: cover;
+    }
+  }
+}

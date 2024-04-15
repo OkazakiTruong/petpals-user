@@ -1,0 +1,24 @@
+@import "../../style/variable";
+@import "../../style/base";
+
+.tiny-article-item {
+  height: 133px;
+  width: 328px;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: flex;
+  gap: 20px;
+  img {
+    width: 133px;
+    height: 133px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .article-author-time {
+    img {
+      width: 12px;
+      height: 12px;
+    }
+  }
+}

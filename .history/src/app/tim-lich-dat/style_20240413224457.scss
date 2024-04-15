@@ -1,0 +1,17 @@
+@import "../../style/variable";
+@import "../../style/base";
+
+form {
+  width: 908px;
+  margin: 0 auto;
+  input {
+    height: 51px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 8px;
+    &:active {
+      border: 1px solid $BROWN_500;
+    }
+  }
+}

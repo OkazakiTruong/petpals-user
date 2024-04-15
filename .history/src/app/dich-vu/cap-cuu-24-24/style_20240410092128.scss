@@ -1,0 +1,13 @@
+@import "../../../style/variable";
+@import "../../../style/base";
+
+.introduce-service {
+  width: 1372px;
+  margin: 0 auto;
+  .service-img {
+    img {
+      width: 560px;
+      height: 315px;
+    }
+  }
+}

@@ -1,0 +1,103 @@
+"use client";
+import "./style.scss";
+import React, { useEffect, useCallback } from "react";
+import useEmblaCarousel from "embla-carousel-react";
+import Autoplay from "embla-carousel-autoplay";
+
+const serviceList = [
+  {
+    img: "/img/service-img/cap_cuu_247.jpg",
+    name: "Cấp cứu 24/24",
+    detail:
+      "Dịch vụ hoạt động 24/24, hãy liên hệ hotline của Petpals để chúng tôi hỗ trợ bạn kịp thời",
+    link: "#",
+  },
+  {
+    img: "/img/service-img/tiem-vaccine.jpg",
+    name: "Tiêm phòng Vaccine",
+    detail:
+      "Chúng tôi sử dụng vaccine hàng đầu từ Mỹ và Châu Âu. Bạn sẽ luôn an tâm với lựa chọn tiên chủng tại Petpals",
+    link: "#",
+  },
+  {
+    img: "/img/service-img/kham_benh.jpg",
+    name: "Khám và điều trị bệnh",
+    detail:
+      "Thực hiện tiếp nhận, sàng lọc, khám chuyên khoa,  xét nghiệm, chuẩn đoán và điều trị bệnh cho thú cưng.",
+    link: "#",
+  },
+  {
+    img: "/img/service-img/sieu_am.jpg",
+    name: "Siêu âm - nội khoa",
+    detail:
+      "Chúng tôi có máy siêu âm chuyên dụng phục vụ các BOSS đến siêu âm thai, nội khoa, chuyên khoa.",
+  },
+  {
+    img: "/img/service-img/chup-xquang.jpg",
+    name: "Chụp X - Quang",
+    detail:
+      "Dịch vụ chụp X - Quang chất lượng cao phục vụ cho chẩn đoán hình ảnh, phẫu thuật xương khớp hiệu quả.",
+  },
+  {
+    img: "/img/service-img/phau_thuat.jpg",
+    name: "Phẫu thuật ngoại khoa",
+    detail:
+      "Đội ngũ bác sĩ của chúng tôi đã thực hiện rất nhiều ca phẫu thuật đa chấn thương cứu sống các bạn vật nuôi",
+  },
+  {
+    img: "/img/service-img/dich-vu-triet-san-1-425x313.jpg",
+    name: "Triệt sản thẩm mỹ",
+    detail:
+      "Petpal là nơi gửi gắm các bạn thú cưng cần triệt sản, không đau, không xấu, vết mổ liền nhanh.",
+  },
+  {
+    img: "/img/service-img/ho_sinh.jpg",
+    name: "Cấp cứu 24/24",
+    detail:
+      "Dịch vụ hoạt động 24/24, hãy liên hệ hotline của Petpals để chúng tôi hỗ trợ bạn kịp thời",
+  },
+  {
+    img: "/img/service-img/lay_cao_rang.jpg",
+    name: "Cấp cứu 24/24",
+    detail:
+      "Dịch vụ hoạt động 24/24, hãy liên hệ hotline của Petpals để chúng tôi hỗ trợ bạn kịp thời",
+  },
+  {
+    img: "/img/service-img/kham_benh2.jpg",
+    name: "Cấp cứu 24/24",
+    detail:
+      "Dịch vụ hoạt động 24/24, hãy liên hệ hotline của Petpals để chúng tôi hỗ trợ bạn kịp thời",
+  },
+  {
+    img: "/img/service-img/ho_sinh.jpg",
+    name: "Cấp cứu 24/24",
+    detail:
+      "Dịch vụ hoạt động 24/24, hãy liên hệ hotline của Petpals để chúng tôi hỗ trợ bạn kịp thời",
+  },
+  {
+    img: "/img/service-img/ho_sinh.jpg",
+    name: "Cấp cứu 24/24",
+    detail:
+      "Dịch vụ hoạt động 24/24, hãy liên hệ hotline của Petpals để chúng tôi hỗ trợ bạn kịp thời",
+  },
+];
+export const Carousel = () => {
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [Autoplay()]);
+
+  return (
+    <div className="embla" ref={emblaRef}>
+      <div className="embla__container">
+        <div className="embla__slide">Slide 1</div>
+        <div className="embla__slide">Slide 2</div>
+        <div className="embla__slide">Slide 3</div>
+      </div>
+      <button
+        onClick={() => {
+          emblaApi.scrollTo(0);
+        }}
+      >
+        next
+      </button>
+    </div>
+  );
+};

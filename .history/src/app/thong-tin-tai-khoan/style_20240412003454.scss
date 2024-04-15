@@ -1,0 +1,14 @@
+@import "../../style/variable";
+@import "../../style/base";
+
+main {
+  background-color: rgba(195, 186, 186, 0.2);
+}
+.information-section {
+  width: 1370px;
+  margin: 0 auto;
+  margin-top: 60px;
+  .section-left {
+    width: 328px;
+  }
+}
